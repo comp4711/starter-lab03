@@ -44,6 +44,7 @@ $route['sleep'] = "/First/zzz";
 //$route['lock/(:any)/(:any)'] = "Welcome/shucks/$1/$2";
 $route['lock/(:any)/(:any)'] = "Welcome/shucks";
 
+$route['show/(:num)'] = "First/gimme/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
