@@ -32,8 +32,8 @@ class Welcome extends Application {
     }
     
     function shucks() {
-        $this->data['pagebody'] = 'justone';
-        $record = $this->quotes->get(2);
+        $this->data['pagebody'] = 'justone'; //Use the justone view
+        $record = $this->quotes->get(2); //Display the second quote
         $this->data = array_merge($this->data, $record);
         $this->render();
     }

@@ -17,6 +17,7 @@ class Bingo extends Application {
     //-------------------------------------------------------------
 
     function index() {
+        //Loads the justone view with the 5th quote
         $this->data['pagebody'] = 'justone';
         $record = $this->quotes->get(5);
         $this->data = array_merge($this->data, $record);
@@ -24,6 +25,7 @@ class Bingo extends Application {
     }
     
     function Wisdom() {
+        //Loads the justone view with the 6th quote
         $this->data['pagebody'] = 'justone';
         $record = $this->quotes->get(6);
         $this->data = array_merge($this->data, $record);

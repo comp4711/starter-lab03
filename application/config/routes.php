@@ -41,6 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+//Extra routes for each image
 $route['sleep'] = 'first/zzz';
 $route['lock/(.*)'] = 'welcome/shucks';
 $route['show/(:num)'] = 'first/gimme/$1';
