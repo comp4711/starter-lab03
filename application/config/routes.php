@@ -40,11 +40,12 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route['sleep'] = "/First/zzz";
+$route['sleep'] = "/first/zzz";
 //$route['lock/(:any)/(:any)'] = "Welcome/shucks/$1/$2";
-$route['lock/(:any)/(:any)'] = "Welcome/shucks";
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
 
-$route['show/(:num)'] = "First/gimme/$1";
+$route['show/(:num)'] = "first/gimme/$1";
+$route['dunno'] = "fourthLink";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
