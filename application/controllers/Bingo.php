@@ -22,4 +22,11 @@ class Bingo extends Application {
         $this->data = array_merge($this->data, $record);
         $this->render();
     }
+    
+    function Wisdom() {
+        $this->data['pagebody'] = 'justone';
+        $record = $this->quotes->get(6);
+        $this->data = array_merge($this->data, $record);
+        $this->render();
+    }
 }

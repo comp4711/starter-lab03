@@ -46,6 +46,7 @@ $route['lock/(.*)'] = 'welcome/shucks';
 $route['show/(:num)'] = 'first/gimme/$1';
 $route['dunno'] = 'guess';
 $route['.{4}/bingo'] = 'bingo';
-        
+$route['(comp.{4})/.*'] = 'bingo/wisdom';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
