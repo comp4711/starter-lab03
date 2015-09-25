@@ -2,7 +2,8 @@
 
 /**
  * Our homepage. Show a table of all the author pictures. Clicking on one should show their quote.
- * Our quotes model has been autoloaded, because we use it everywhere.
+ * Our quotes model has been autoloaded, because we use it everywhere
+ * Also contains the shucks method which is routed from lock/em/up which uses wildecard
  * 
  * controllers/Welcome.php
  *
@@ -30,8 +31,10 @@ class Welcome extends Application {
 
         $this->render();
     }
-    
-//    function shucks($p,$i) {
+   
+    /*
+     * routed to from localhost/lock/em/up
+     */
       function shucks() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

@@ -1,21 +1,24 @@
 <?php
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- * Description of Bingo
+ * Contains the controller to route the 5th link of the header that contains bingo in
+ *  the url to demonstrate the use of Regular expression.
+ *  
  *
- * @author Nina
+ * @author Nadia
  */
 class Bingo extends Application{
+    
+    /*
+     * Constuctor to make the Bingo contoller.
+     */
      function __construct() {
         parent::__construct();
     }
     
+    /*
+     * method routed to from localhost/wise/bingo
+     */
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view
@@ -28,6 +31,9 @@ class Bingo extends Application{
         $this->render();
     }
     
+    /*
+     * method routed to from localhost/comp4711/wisdom
+     */
         function wisdom() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

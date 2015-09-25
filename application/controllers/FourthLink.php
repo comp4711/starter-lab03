@@ -1,21 +1,21 @@
 <?php
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- * Description of FourthLink
+ * Contains the controller to route the fourth link that contains guess in the url. 
  *
- * @author Nina
+ * @author Nadia
  */
 class FourthLink extends Application{
+    /*
+     * Constractor of the guess Controller
+     */
      function __construct() {
         parent::__construct();
     }
     
+    /*
+     * Routed from loclhost/dunno
+     */
         function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

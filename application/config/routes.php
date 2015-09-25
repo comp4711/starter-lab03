@@ -39,12 +39,15 @@
 */
 
 
+/*
+ * Routing used for Controllers.
+ */
 $route['sleep'] = "/first/zzz";
 //$route['lock/(:any)/(:any)'] = "Welcome/shucks/$1/$2";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 
 $route['show/(:num)'] = "first/gimme/$1";
-$route['dunno'] = "fourthLink";
+$route['dunno'] = "guess";
 $route['([a-z]{4})/bingo'] ="bingo";
 $route['comp[0-9]+/wisdom'] ="/bingo/wisdom";
 $route['default_controller'] = "welcome";

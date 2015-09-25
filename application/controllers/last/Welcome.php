@@ -1,21 +1,23 @@
 <?php
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- * Description of Welcome
+ * Contains the controller to route the last link or the navbar 
+ * (through the index method).
  *
- * @author Nina
+ * @author Nadia
  */
 class Welcome extends Application{
+    /*
+    * Welcome controller constructor. 
+    */
     function __construct() {
         parent::__construct();
     }
     
+    /*
+     * called when the URL is localhost/last.  In this case last is the folder
+     * where Welcome.php is located
+     */
         function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view
