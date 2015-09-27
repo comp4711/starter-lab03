@@ -31,6 +31,17 @@ class Welcome extends Application {
         $this->render();
     }
 
+    /**
+     * The method for the link "lock/em/up"
+     */
+    function shucks()
+    {
+        $this->data['pagebody'] = 'justone';    // this is the view of just one quote
+        // gets an author in the list, to pass on to our view
+        $record = $this->quotes->get('2');
+        $this->data = array_merge($this->data, $record);
+        $this->render();
+    }
 }
 
 /* End of file Welcome.php */
