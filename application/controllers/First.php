@@ -17,5 +17,13 @@ class First extends Application {
         $this->data = array_merge($this->data, $record);
         $this->render();
     }
+    
+    function zzz () {
+        $this->data['pagebody'] = 'justone';    // this is the view we want shown
+        // get the first quote
+        $record = $this->quotes->get(1);
+        $this->data = array_merge($this->data, $record);
+        $this->render();
+    }
 
 }
