@@ -17,5 +17,13 @@ class Bingo extends Application {
         $this->data = array_merge($this->data, $record);
         $this->render();
     }
+    
+    function wisdom() {
+        $this->data['pagebody'] = 'justone';    // this is the view we want shown
+        // gets the 6th quote
+        $record = $this->quotes->get(6);
+        $this->data = array_merge($this->data, $record);
+        $this->render();
+    }
 
 }
