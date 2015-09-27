@@ -38,8 +38,16 @@
 |
 */
 
-$route['default_controller'] = "welcome";
 $route['404_override'] = '';
+$route['default_controller'] = "welcome";
+$route['last'] = 'last/Welcome';
+$route['sleep'] = 'first/zzz';
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
+$route['show/(:num)'] = 'first/gimme/$1';
+$route['dunno'] = 'guess';
+$route['(\w{4})/bingo'] = 'bingo';
+$route['(comp\d{4})/(:any)'] = 'bingo/wisdom';
+
 
 
 /* End of file routes.php */
