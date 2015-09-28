@@ -41,6 +41,26 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+//Remaps the segment 'sleep' to the First Controller's zzz method
+$route['sleep'] = 'first/zzz';
+
+//Remaps the segment 'lock/*' to the Welcome Controller's shucks method
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
+
+//Remaps the segment 'show/(digit*)' to the First Controller's gimme method
+//passing in the parameter to gimme
+$route['show/(:num)'] = 'first/gimme/$1';
+
+//Remaps the segment 'dunno' to the Guess Controller's index method
+$route['dunno'] = 'guess';
+
+//Remaps the segment '(4 letters)/bingo/' to the Bingo Controller's index method
+$route['[a-zA-Z]{4}/bingo'] = 'bingo';
+
+//Remaps the segment 'comp(at least one digit)/*' to the Bingo Controller's
+//wisdom method
+$route['comp[\d]+/(:any)'] = 'bingo/wisdom';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
