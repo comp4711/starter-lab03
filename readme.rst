@@ -55,3 +55,10 @@ Technology at the British Columbia Institute of Technology,
 and Project Lead for CodeIgniter.
 
 CodeIgniter is a project of B.C.I.T.
+
+***************
+Work Allocation
+***************
+MW - 3, 6, 8 links
+SS - 2, 5, 7 links
+KP - Team Rep Owner, 1 and 4 link
