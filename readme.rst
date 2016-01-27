@@ -6,6 +6,14 @@ This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
 
+*************
+Work Breakdown
+*************
+
+JS - Repo Owner
+JT - Team member
+KC - Team member
+
 **************
 Intended Usage
 **************
