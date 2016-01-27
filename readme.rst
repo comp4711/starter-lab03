@@ -1,7 +1,7 @@
-##Roles##  
-Amanda - 1st, 4th
-Andrew - 2nd 5th, 7th
-Arthur - 3rd, 6th, 8th
+Roles    
+Amanda - 1st, 4th  
+Andrew - 2nd 5th, 7th  
+Arthur - 3rd, 6th, 8th  
 
 #######################
 Starter Webapp - Quotes
