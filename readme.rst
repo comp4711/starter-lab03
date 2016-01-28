@@ -2,18 +2,14 @@
 Starter Webapp - Quotes
 #######################
 
-This is the starter webapp for Tutorial ci-normal01
+The purpose of this lab and repo is to gain experience using a proper DVCS workflow.
 
-It is purposefully broken.
-
-**************
-Intended Usage
-**************
-
-Fork this project.
-Clone it locally.
-Create a "develop" branch based on "master".
-Fix it per tutorial "normal01".
+************
+Team Members
+************
+* SCMcLaughlin
+* WILSON
+* Michael
 
 ***************
 Project Folders
