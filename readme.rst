@@ -16,7 +16,7 @@ Mark Batin
 ******************
 Coding Conventions
 ******************
-Almond style coding
+Allman style coding
 
 **************
 Intended Usage
