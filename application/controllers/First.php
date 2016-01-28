@@ -3,11 +3,11 @@
 /**
  * A quote controller.
  * 
- * controllers/Sleep.php
+ * controllers/First.php
  *
  * ------------------------------------------------------------------------
  */
-class Sleep extends Application {
+class First extends Application {
 
 	function __construct()
 	{
@@ -18,8 +18,8 @@ class Sleep extends Application {
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 
-		$source = $this->quotes->all();
-		$author = $source[0];
+		$source = $this->quotes->first();
+		$author = $source;
 
 		$this->data['mug'] = $author['mug'];
 		$this->data['who'] = $author['who'];
@@ -27,8 +27,10 @@ class Sleep extends Application {
 
 		$this->render();
 	}
+        
+    }
 
-}
 
-/* End of file Sleep.php */
-/* Location: application/controllers/Sleep.php */
+
+/* End of file First.php */
+/* Location: application/controllers/First.php */
