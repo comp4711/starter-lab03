@@ -31,6 +31,17 @@ class First extends Application {
         $this->render();
 
     }
+    
+    function zzz(){
+        
+        $this->load->model('quotes');
+        $record = $this->quotes->first();
+        $this->data['pagebody'] = 'justone';
+
+        $this->data = array_merge($this->data, $record);
+
+        $this->render();
+    }
 
 }
 
