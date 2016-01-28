@@ -6,6 +6,18 @@ This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
 
+************
+Team Members
+************
+Emilio Wu
+Khang Tran
+Mark Batin - Acknowledged
+
+******************
+Coding Conventions
+******************
+Allman style coding
+
 **************
 Intended Usage
 **************
