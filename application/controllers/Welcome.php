@@ -35,6 +35,3 @@ class Welcome extends Application {
 	}
 
 }
-
-/* End of file Welcome.php */
-/* Location: application/controllers/Welcome.php */
