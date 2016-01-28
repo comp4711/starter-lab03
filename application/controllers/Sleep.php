@@ -1,8 +1,7 @@
 <?php
 
 /**
- * Our homepage. Show a table of all the author pictures. Clicking on one should show their quote.
- * Our quotes model has been autoloaded, because we use it everywhere.
+ * A quote controller.
  * 
  * controllers/Sleep.php
  *
@@ -22,7 +21,6 @@ class Sleep extends Application {
 	function index()
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
-		// build the list of authors, to pass on to our view
 
 		$source = $this->quotes->all();
 		$author = $source[0];
@@ -36,5 +34,5 @@ class Sleep extends Application {
 
 }
 
-/* End of file Welcome.php */
-/* Location: application/controllers/Welcome.php */
+/* End of file Sleep.php */
+/* Location: application/controllers/Sleep.php */
