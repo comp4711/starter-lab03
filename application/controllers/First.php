@@ -31,7 +31,19 @@ class First extends Application {
         $this->render();
 
     }
-    
+    // This remaps /sleep to First/zzz
+    public function _remap($method)
+    {
+        if ($method === 'sleep')
+        {
+                $this->zzz();
+        }
+        else
+        {
+                $this->index();
+        }
+    }
+    // zzz method for when /sleep url is entered
     function zzz(){
         
         $this->load->model('quotes');
