@@ -2,6 +2,12 @@
 Starter Webapp - Quotes
 #######################
 
+Team:
+Alex Kyle (x)
+Eagle Li
+
+convention: allmon style
+
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
