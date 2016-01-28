@@ -3,7 +3,7 @@ Starter Webapp - Quotes
 #######################
 
 Team:
-Alex Kyle (x)
+Alex Kyle (x) acknowlegded 
 Eagle Li
 
 convention: allmon style
