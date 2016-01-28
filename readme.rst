@@ -11,12 +11,12 @@ Team Members
 ************
 Emilio Wu
 Khang Tran
-Mark Batin
+Mark Batin - Acknowledged
 
 ******************
 Coding Conventions
 ******************
-Almond style coding
+Allman style coding
 
 **************
 Intended Usage
