@@ -1,0 +1,4 @@
+Change log
+Newest at the top
+
+01/28/2016 10:54AM: Created Changelog, changed readme
