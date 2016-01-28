@@ -4,7 +4,7 @@
 
 Work Allocations: 
 
-KT - # 1,3,5,7 <Br />
+KT - # 1,3,5,7 [READY]<Br />
 YJ - # 2,4,6,8
 
 Assumptions: <br />
