@@ -5,7 +5,7 @@
 Work Allocations: 
 
 KT - # 1,3,5,7 <Br />
-YJ - # 2,4,6,8
+Yoseph Jo - # 2,4,6,8
 
 Assumptions: <br />
 --Allman-style formatting<br />
