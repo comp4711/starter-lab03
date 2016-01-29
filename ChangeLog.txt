@@ -1,3 +1,5 @@
 Newest at the top
 
 Jan 28, 2016, 15:48 Setup
+
+Jan 29, 2016, 14:15 Completed the "First feature"
