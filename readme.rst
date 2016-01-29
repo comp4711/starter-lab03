@@ -4,7 +4,7 @@ Starter Webapp - Quotes
 
 Team members:
 Matthew Wong - Acknowledged
-Luda Shu
+Luda Shu - Acknowledged
 
 Convention:
 Use Allman style notation 
