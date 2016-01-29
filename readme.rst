@@ -2,6 +2,11 @@
 Starter Webapp - Quotes
 #######################
 
+Himesh - acknowledged
+Evgeni
+
+use allman style
+
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
