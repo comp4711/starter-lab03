@@ -22,6 +22,7 @@ class First extends Application {
 		// build the list of authors, to pass on to our view
 		$record = $this->quotes->first();
 		$this->data = array_merge($this->data, $record);
+                $this->render();
 	}
 }
 
