@@ -3,7 +3,7 @@ Starter Webapp - Quotes
 #######################
 
 Team members:
-Matthew Wong
+Matthew Wong - Acknowledged
 Luda Shu - Acknowledged
 
 Convention:
