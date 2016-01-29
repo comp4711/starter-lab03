@@ -1,5 +1,6 @@
 Change log
 Newest at the top
 
+01/28/2016 09:21PM: Fix link #8
 01/28/2016 08:40PM: Fix link #3
 01/28/2016 10:54AM: Created Changelog, changed readme
