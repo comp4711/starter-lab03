@@ -40,7 +40,8 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-
+//Wildcard for First controller
+$route['(:any)'] = "first/$1";
 $route['dunno'] = function() {
     $source = './data/surprise.jpg'; // an image you provide
     // set the mime type for that image
