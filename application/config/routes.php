@@ -42,6 +42,17 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['sleep'] = 'first/zzz';
 
+$route['dunno'] = function ()
+{
+       	$source = './data/surprise.jpg';
+
+       	header("Content-type: Image/jpeg");
+
+	header('Content-Disposition: inline');
+
+	readfile($source);
+	die();
+};
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
