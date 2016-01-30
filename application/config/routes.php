@@ -52,6 +52,7 @@ $route['404_override'] = '';
 
 $route['sleep'] = "first/zzz";
 $route['lock/(:any)/(:any)'] = "Welcome/shucks";
+$route['([a-zA-Z]{0,4}+)/bingo'] = 'Bingo';
 $route['dunno'] = function(){
     $source = './data/Annoying_Orange.jpg'; //image that I downloaded
     //set the mime type for that image
