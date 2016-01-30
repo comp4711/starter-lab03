@@ -52,7 +52,15 @@ $route['404_override'] = '';
 
 $route['sleep'] = "first/zzz";
 $route['lock/(:any)/(:any)'] = "Welcome/shucks";
-
+$route['dunno'] = function(){
+    $source = './data/Annoying_Orange.jpg'; //image that I downloaded
+    //set the mime type for that image
+    header("Content-type: image/jpg");
+    header('Conent-Disposition: inline'); 
+    readfile($source); //dish it
+    die(); //and we don't have to go any further
+    
+};
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
