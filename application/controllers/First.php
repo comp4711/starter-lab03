@@ -36,4 +36,24 @@ class First extends Application{
         $this->render();
 
     }
+
+    public function _remap($function) {
+        if ($function === 'sleep')
+            $this->zzz();
+        else if ($function === 'gimme')
+            $this->gimme(3);
+        else
+            $this->index();
+    }
+
+    function zzz() {
+        //first row
+        $record = $this->quotes->first();
+        //load content of justone.php
+        $this->data['pagebody'] = 'justone';
+        //merge the 2 arrays
+        $this->data = array_merge($this->data, $record);
+        //render the page
+        $this->render();
+    }
 }
