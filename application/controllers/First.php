@@ -32,6 +32,14 @@ class First extends Application {
             $this->data = array_merge($this->data, $record);
             $this->render();
         }
+        
+        function gimmie($choice)
+        {
+            $this->data['pagebody'] = 'justone';
+            $record = $this->quotes->get($choice);
+            $this->data = array_merge($this->data, $record);
+            $this->render();
+        }
 }
 
 /* End of file First.php */
