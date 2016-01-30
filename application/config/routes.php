@@ -43,12 +43,11 @@ $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
 $route['dunno'] = function ()
 {
-    $source = "data/BCIT_logo.png"; 
-    $mimeType = mime_content_type($source);
-    header("Content-type: " . $mimeType);
+    $source = "data/BCIT_logo.png";
+    header("Content-type: image/png"); 
     header('Content-Disposition: inline');
-    readfile($source);
-    die();
+    readfile($source); // dish it
+    die(); // and we don't have to go any further
 };
 $route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
