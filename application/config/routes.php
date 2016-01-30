@@ -41,7 +41,6 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
-$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 $route['dunno'] = function ()
 {
     $source = "data/BCIT_logo.png"; 
@@ -51,6 +50,7 @@ $route['dunno'] = function ()
     readfile($source);
     die();
 };
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
