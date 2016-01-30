@@ -32,7 +32,7 @@ class First extends Application{
         $this->data['pagebody'] = 'justone';
         // Merge data inside quote array into data array.
         $this->data = array_merge($this->data, $quote);
-        //render page
+        //render the page
         $this->render();
 
     }
