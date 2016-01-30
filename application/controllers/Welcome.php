@@ -19,6 +19,15 @@ class Welcome extends Application {
 	//  The normal pages
 	//-------------------------------------------------------------
 
+        function shucks(){
+            $this->data['pagebody'] = 'justone';
+            $source = $this->quotes->get(2);
+            $this->data = array_merge($this->data, $source);
+
+            $this->render();
+        }
+        
+        
 	function index()
 	{
 		$this->data['pagebody'] = 'homepage';	// this is the view we want shown
@@ -33,6 +42,7 @@ class Welcome extends Application {
 
 		$this->render();
 	}
+        
 
 }
 

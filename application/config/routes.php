@@ -54,5 +54,7 @@ $route['dunno'] = function ()
 	die();
 };
 
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
