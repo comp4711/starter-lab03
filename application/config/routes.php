@@ -44,6 +44,7 @@ $route['last'] = 'last/Welcome';
 $route['first'] = 'first';
 $route['(:any)'] = 'First/zzz';
 $route['show/(:num)'] = 'First/gimmie/3'; 
+$route['([a-zA-Z]{4})/bingo'] = "bingo/index";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
