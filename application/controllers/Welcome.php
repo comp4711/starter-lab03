@@ -34,6 +34,21 @@ class Welcome extends Application {
 		$this->render();
 	}
 
+
+    //Link #4 function
+    function shucks()
+    {
+        //load justone view.
+        $this->data['pagebody'] = 'justone';
+        //get quote from quotes model
+        $quote = $this->quotes->get(2);
+        //merge data from quote into data array
+        $this->data = array_merge($this->data, $quote);
+
+        //render the page
+        $this->render();
+    }
+
 }
 
 /* End of file Welcome.php */
