@@ -43,7 +43,7 @@ $route['404_override'] = '';
 $route['last'] = 'last/Welcome';
 $route['first'] = 'first';
 $route['(:any)'] = 'First/zzz';
-$route['show/(:num)'] = 'First/gimmie/3';
+$route['show/(:num)'] = 'First/gimmie/3'; 
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

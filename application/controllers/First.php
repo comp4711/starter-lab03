@@ -38,7 +38,7 @@ class First extends Application {
             $this->data['pagebody'] = 'justone';
             $record = $this->quotes->get($choice);
             $this->data = array_merge($this->data, $record);
-            $this->render();
+            $this->render(); 
         }
 }
 
