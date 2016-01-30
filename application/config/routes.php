@@ -40,7 +40,8 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-
+//reroutes the url with wildcards lock/*/* to call the method shucks in welcome.php
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
