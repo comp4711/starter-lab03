@@ -46,8 +46,8 @@ $route['dunno'] = function ()
     $source = "data/BCIT_logo.png";
     header("Content-type: image/png"); 
     header('Content-Disposition: inline');
-    readfile($source); // dish it
-    die(); // and we don't have to go any further
+    readfile($source);
+    die();
 };
 $route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
