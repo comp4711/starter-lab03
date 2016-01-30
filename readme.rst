@@ -2,6 +2,13 @@
 Starter Webapp - Quotes
 #######################
 
+Team members:
+Matthew Wong - Acknowledged
+Luda Shu - Acknowledged
+
+Convention:
+Use Allman style notation 
+
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
