@@ -41,6 +41,10 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+//Khang's portion or routing
+$route['show/(\d+)'] = 'First/gimme/$1'; //(/d+) means any digit
+$route['([a-z]{4})/bingo'] = 'Bingo'; //shooses 4 characters from a regular expression 
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
