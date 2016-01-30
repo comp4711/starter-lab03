@@ -14,9 +14,12 @@ class First extends Application{
     }
 
     function index(){
+
+        //Retrieve first row of info in quotes
         $quote = $this->quotes->first();
 
-        /*$this->data['pagebody'] = 'justone';
+        /*
+        $this->data['pagebody'] = 'justone';
 
         $this->data['who'] = $quote['who'];
         $this->data['mug'] = $quote['mug'];
@@ -24,8 +27,12 @@ class First extends Application{
 
         $this->render();
         */
+
+        // Calls View justone.php
         $this->data['pagebody'] = 'justone';
+        // Merge data inside quote array into data array.
         $this->data = array_merge($this->data, $quote);
+        //render page
         $this->render();
 
     }
