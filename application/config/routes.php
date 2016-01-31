@@ -46,5 +46,16 @@ $route['show/(\d+)'] = 'First/gimme/$1'; //(/d+) means any digit
 $route['([a-z]{4})/bingo'] = 'Bingo'; //shooses 4 characters from a regular expression 
 
 
+$route['sleep'] = 'First/zzz';
+$route['dunno'] = function ()
+{
+    $source = "data/BCIT_logo.png";
+    header("Content-type: image/png"); 
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -9,9 +9,9 @@ It is purposefully broken.
 ************
 Team Members
 ************
-Emilio Wu
-Khang Tran -Acknowledged 
-Mark Batin
+Emilio Wu - Acknowledged
+Khang Tran - Acknowledged 
+Mark Batin - Acknowledged
 
 ******************
 Coding Conventions
