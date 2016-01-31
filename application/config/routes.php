@@ -37,20 +37,19 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['first'] = "First/index";
+
 $route['default_controller'] = "welcome";
-$route["lock/.*?/.*?"] = 'Welcome/shucks';
 $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
- $route['dunno'] = function ()
-  {
+$route['dunno'] = function ()
+{
     $source = "data/BCIT_logo.png";
     header("Content-type: image/png"); 
     header('Content-Disposition: inline');
     readfile($source);
     die();
-  };
- +$route['comp(\d+)/(:any)'] = 'Wise/bingo';
+};
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
