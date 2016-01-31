@@ -3,11 +3,11 @@
 /**
  * Our quotes model has been autoloaded, because we use it everywhere.
  * 
- * controllers/First.php
+ * controllers/last/Welcome.php
  *
  * ------------------------------------------------------------------------
  */
-class First extends Application {
+class Welcome extends Application {
 
 	function __construct()
 	{
@@ -22,7 +22,7 @@ class First extends Application {
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 		// get first author data, to pass on to our view
-		$record = $this->quotes->first();
+		$record = $this->quotes->last();
 		
 		// Put into respective data view
 		$this->data = array_merge($this->data, $record);
@@ -32,5 +32,5 @@ class First extends Application {
 
 }
 
-/* End of file First.php */
-/* Location: application/controllers/First.php */
+/* End of file Welcome.php */
+/* Location: application/controllers/Welcome.php */
