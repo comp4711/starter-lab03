@@ -7,7 +7,7 @@
  *
  * ------------------------------------------------------------------------
  */
-class First extends Application {
+class Welcome extends Application {
 
 	function __construct()
 	{
@@ -21,7 +21,7 @@ class First extends Application {
 	function index()
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
-		// get first author data, to pass on to our view
+		// get last author data, to pass on to our view
 		$record = $this->quotes->first();
 		
 		// Put into respective data view
@@ -32,5 +32,5 @@ class First extends Application {
 
 }
 
-/* End of file First.php */
-/* Location: application/controllers/First.php */
+/* End of file Welcome.php */
+/* Location: application/controllers/Welcome.php */
