@@ -41,8 +41,23 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
-// For #3 Sleep
-$route['sleep'] = "first/zzz";
+// Routing for #3 sleep link
+$route['sleep'] = 'first/zzz';
+/* Feature 4 Routing */
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
+// For #5 show
+$route['show/(:num)'] = "first/gimme/3";
+/* Feature 6 Routing */
+$route['dunno'] = function() 
+	{
+		$source = './data/codeigniter.gif'; // an image of codeigniter logo
+		// set the mime type for that image
+		header("Content-type: image/jpeg"); 
+		header('Content-Disposition: inline');
+		readfile($source); // dish it
+		die(); // and we don't have to go any further
+	};
+
 
 // For #7 wise/Bingo
 $route['([a-z]{4})/bingo'] = "bingo";
