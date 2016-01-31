@@ -29,6 +29,19 @@ class First extends Application {
 		
 		$this->render();
 	}
+	
+	function zzz()
+	{
+		$this->data['pagebody'] = 'justone';	// this is the view we want shown
+		
+		// get author dta, to pass onto our view
+		$record = $this->quotes->get(1);
+		
+		// Load into the data view
+		$this->data = array_merge($this->data, $record);
+		
+		$this->render();
+	}
 
 }
 
