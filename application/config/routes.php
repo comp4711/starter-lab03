@@ -44,7 +44,14 @@ $route['sleep'] = "first/zzz"; // wildcard routing for sleep link
 $route['show/(:num)'] = "first/gimme/$1";//wildcard routing for show link 
 $route['last'] = 'last/welcome';
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
-
+$route['dunno'] = function() {
+    $source = './data/surprise.jpg'; // an image you provide
+    // set the mime type for that image
+    header("Content-type: image/jpeg"); 
+    header('Content-Disposition: inline');
+    readfile($source); // dish it
+    die(); // and we don't have to go any further
+};
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
