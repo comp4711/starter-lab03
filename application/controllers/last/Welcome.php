@@ -24,10 +24,8 @@ class Welcome extends Application {
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 		// build the list of the last author
 		$record = $this->quotes->last();
-                $authors = array();
-                $authors[] = array('who' => $record['who'], 'mug' => $record['mug'], 'what' => $record['what']);
-                $this->data['authors'] = $authors;
-		$this->render();
+                $this->data = array_merge($this->data, $record);
+                $this->render();
 	}
 
 }
