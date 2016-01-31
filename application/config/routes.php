@@ -41,6 +41,8 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+// Routing for #3 sleep link
+$route['sleep'] = 'first/zzz';
 /* Feature 4 Routing */
 $route['lock/(:any)/(:any)'] = 'welcome/shucks';
 
