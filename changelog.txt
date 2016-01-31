@@ -2,6 +2,7 @@ Changes to the project:
 Newest / Latest changes at the top
 [YYYY.MM.DD HH:MM Comment]
 
+2016.01.31 11:59 Changed routing rule for Feature 8. /wisdom to /(:any)
 2016.01.31 04:21 Fixed link for the last image.
 2016.01.31 04:12 Minor comment adjustments for some controller files
 2016.01.31 04:08 Fix for 'Bingo' Link (i.e. Bottom Middle picture)
