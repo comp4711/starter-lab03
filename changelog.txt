@@ -2,5 +2,6 @@ Changes to the project:
 Newest / Latest changes at the top
 [YYYY.MM.DD HH:MM Comment]
 
+2016.01.31 02:11 'Last' link is fixed
 2016.01.31 00:35 Fix for 'First' Link
 2016.01.28 13:55 Initial Setup
