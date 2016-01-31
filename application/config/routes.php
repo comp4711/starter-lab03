@@ -43,6 +43,8 @@ $route['404_override'] = '';
 
 // Routing for #3 sleep link
 $route['sleep'] = 'first/zzz';
+/* Feature 4 Routing */
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
