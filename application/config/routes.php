@@ -38,10 +38,8 @@
 |
 */
 
-$route['first'] = 'first/index';
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route['lock/.*?/.*?'] = 'Welcome/shucks';
 $route['sleep'] = 'First/zzz';
 $route['comp(\d+)/(:any)'] = 'Wise/bingo';
 $route['dunno'] = function ()

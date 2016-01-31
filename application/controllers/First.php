@@ -11,14 +11,6 @@ class First extends Application
         parent::__construct();
     }
     
-    // function for first link after logo 
-    function index()
-    {
-        $this->data['pagebody'] = 'justone';
-        $record = $this->quotes->get(1);
-        $this->data = array_merge($this->data, $record);
-        $this->render();
-    }   
     // function for qoute for third link
     function zzz()
     {
@@ -27,6 +19,4 @@ class First extends Application
         $this->data = array_merge($this->data, $record);
         $this->render();
     }
-    
-
 }
