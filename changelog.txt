@@ -2,6 +2,9 @@ Changes to the project:
 Newest / Latest changes at the top
 [YYYY.MM.DD HH:MM Comment]
 
+2016.01.31 03:36 Link for Feature 4 is fixed.
+2016.01.31 03:34 Routing for Feature 4 added
+2016.01.31 03:32 shucks() method added under Welcome.php
 2016.01.31 02:11 Link for 'Last' is fixed
 2016.01.31 00:35 Fix for 'First' Link
 2016.01.28 13:55 Initial Setup
