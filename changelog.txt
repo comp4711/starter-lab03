@@ -8,6 +8,5 @@ Newest / Latest changes at the top
 2016.01.31 03:32 shucks() method added under Welcome.php
 2016.01.31 03:28 Fix for #3 (sleep) link
 2016.01.31 02:11 Link for 'Last' is fixed
-2016.01.31 03:21 Adjusted the route for Link#5 to a static rerouting.
 2016.01.31 00:35 Fix for 'First' Link
 2016.01.28 13:55 Initial Setup
