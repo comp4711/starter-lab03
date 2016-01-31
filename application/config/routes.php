@@ -38,7 +38,9 @@
 |
 */
 
+$route['first'] = "First/index";
 $route['default_controller'] = "welcome";
+$route['lock/.*?/.*?'] = "welcome/shucks";
 $route['404_override'] = '';
 
 //Khang's portion or routing
