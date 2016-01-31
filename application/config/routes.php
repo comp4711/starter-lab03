@@ -41,16 +41,15 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['sleep'] = 'First/zzz';
-$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 $route['dunno'] = function ()
 {
-    $source = "data/BCIT_logo.png"; 
-    $mimeType = mime_content_type($source);
-    header("Content-type: " . $mimeType);
+    $source = "data/BCIT_logo.png";
+    header("Content-type: image/png"); 
     header('Content-Disposition: inline');
     readfile($source);
     die();
 };
+$route['comp(\d+)/(:any)'] = 'Wise/bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
