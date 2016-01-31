@@ -1,3 +1,8 @@
+Tertium - acknowledged
+Marxeez - acknowledge meeee!!
+
+conventions: allman style
+
 #######################
 Starter Webapp - Quotes
 #######################
