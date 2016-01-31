@@ -43,6 +43,7 @@ $route['404_override'] = 'errors/page_missing';
 
 /* Wildcard routes below */
 $route['sleep'] = "first/zzz";
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
 
 
 /* End of file routes.php */
