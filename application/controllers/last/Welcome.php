@@ -7,7 +7,7 @@
  *
  * ------------------------------------------------------------------------
  */
-class First extends Application {
+class Welcome extends Application {
 
 	function __construct()
 	{
@@ -21,7 +21,7 @@ class First extends Application {
 	function index()
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
-		// get first author data, to pass on to our view
+		// get last author data, to pass on to our view
 		$record = $this->quotes->first();
 		
 		// Put into respective data view
@@ -29,21 +29,8 @@ class First extends Application {
 		
 		$this->render();
 	}
-	
-	function zzz()
-	{
-		$this->data['pagebody'] = 'justone';	// this is the view we want shown
-		
-		// get author dta, to pass onto our view
-		$record = $this->quotes->get(1);
-		
-		// Load into the data view
-		$this->data = array_merge($this->data, $record);
-		
-		$this->render();
-	}
 
 }
 
-/* End of file First.php */
-/* Location: application/controllers/First.php */
+/* End of file Welcome.php */
+/* Location: application/controllers/Welcome.php */
