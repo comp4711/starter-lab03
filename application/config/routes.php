@@ -39,7 +39,10 @@
 */
 
 $route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['404_override'] = 'errors/page_missing';
+
+/* Wildcard routes below */
+$route['sleep'] = "first/zzz";
 
 
 /* End of file routes.php */

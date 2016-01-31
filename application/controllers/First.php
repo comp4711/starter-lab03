@@ -18,8 +18,7 @@ class First extends Application {
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 
-		$source = $this->quotes->first();
-		$author = $source;
+		$author = $this->quotes->first();
 
 		$this->data['mug'] = $author['mug'];
 		$this->data['who'] = $author['who'];
@@ -27,8 +26,21 @@ class First extends Application {
 
 		$this->render();
 	}
-        
+    
+    function zzz()
+    {
+        $this->data['pagebody'] = 'justone';	// this is the view we want shown
+
+		$source = $this->quotes->all();
+		$author = $source[0];
+
+		$this->data['mug'] = $author['mug'];
+		$this->data['who'] = $author['who'];
+		$this->data['what'] = $author['what'];
+
+		$this->render();
     }
+}
 
 
 
