@@ -60,5 +60,7 @@ $route['show/(:any)'] = "first/gimme/$1";
 
 $route['comp[0-9]+/(:any)'] = "wise/bingo";
 
+$route['[a-z][a-z][a-z][a-z]/bingo'] = "bingo/index";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
