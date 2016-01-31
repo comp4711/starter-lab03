@@ -32,5 +32,5 @@ class First extends Application {
 
 }
 
-/* End of file First.php */
+/* End of file Welcome.php */
 /* Location: application/controllers/First.php */
