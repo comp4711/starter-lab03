@@ -44,5 +44,8 @@ $route['404_override'] = '';
 // For #3 Sleep
 $route['sleep'] = "first/zzz";
 
+// For #5 show
+$route['show/(:num)'] = "first/gimme/$1";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

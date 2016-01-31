@@ -34,8 +34,21 @@ class First extends Application {
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 		
-		// get author dta, to pass onto our view
+		// get author data, to pass onto our view
 		$record = $this->quotes->get(1);
+		
+		// Load into the data view
+		$this->data = array_merge($this->data, $record);
+		
+		$this->render();
+	}
+	
+	function gimme($id)
+	{
+		$this->data['pagebody'] = 'justone';	// this is the view we want shown
+		
+		// get author data, to pass onto our view
+		$record = $this->quotes->get($id);
 		
 		// Load into the data view
 		$this->data = array_merge($this->data, $record);
