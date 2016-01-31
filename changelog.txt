@@ -1,0 +1,16 @@
+*********
+Changelog
+*********
+Newest at the top
+
+DateTime                What was done 
+Jan-28-2016 10.48       Initial Changelog
+Jan-28-2016 13.09       Added role assignment
+Jan-28-2016 17.35       Fixed link 1 (First)
+Jan-28-2016 17.45       Fixed link 2 (Last)
+Jan-28-2016 18:30       Fixed link 3 (Sleep)
+Jan-28-2016 19:00       Fixed link 4 (Lockemup)
+Jan-31-2016 14:21       Fixed link 5 (show/3)
+Jan-31-2016 14:48       Fixed link 6 (Dunno)
+Jan-31-2016 15:02       Fixed link 7 (Bingo)
+Jan-31-2016 15:12       Fixed link 8 (Wisdom)

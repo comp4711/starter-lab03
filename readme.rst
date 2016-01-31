@@ -1,6 +1,45 @@
 #######################
 Starter Webapp - Quotes
 #######################
+ 
+
+ACIT4850_lab4
+
+*************
+Team Members:
+*************
+
+William
+Ziqi Miao
+Shaw - Test2
+
+******************
+Coding Convention:
+******************
+Allman style format
+
+****************
+Task Assignment:
+****************
+
+Shaw: 2, 5, 7
+Will: 1, 4
+Ziq: 3, 6, 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is the starter webapp for Tutorial ci-normal01
 

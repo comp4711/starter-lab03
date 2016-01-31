@@ -38,9 +38,21 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
-
-
+    $route['default_controller'] = "welcome";
+    $route['404_override'] = '';
+    $route['last'] = 'last/Welcome';
+    $route['sleep'] = 'first/zzz';  
+    $route['lock/(:any)/(:any)'] = 'Welcome/shucks';
+    $route['show/(:num)'] = '/first/gimme/$1';
+    $route['dunno'] = function() {
+	$source = './data/surprise.jpg'; // an image you provide
+	// set the mime type for that image
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+    }; 
+    $route['([a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z])/bingo'] = "Bingo";
+    $route['^comp|\d+/*'] = "Wise";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
