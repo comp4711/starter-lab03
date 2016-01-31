@@ -56,6 +56,8 @@ $route['dunno'] = function ()
 
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 
+$route['show/(:any)'] = "first/gimme/$1";
+
 $route['comp[0-9]+/(:any)'] = "wise/bingo";
 
 /* End of file routes.php */
