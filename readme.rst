@@ -2,6 +2,20 @@
 Starter Webapp - Quotes
 #######################
 
+*************
+Team members:
+*************
+
+Matthew Hui- Acknowledged 
+Justin Chau
+
+*******************
+Coding Conventions:
+*******************
+
+Almond Style convention
+
+
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
