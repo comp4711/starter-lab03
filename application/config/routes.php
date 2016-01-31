@@ -59,5 +59,8 @@ $route['dunno'] = function()
 	};
 
 
+// For #7 wise/Bingo
+$route['([a-z]{4})/bingo'] = "bingo";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
