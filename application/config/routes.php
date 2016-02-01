@@ -39,7 +39,26 @@
 */
 
 $route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['404_override'] = 'errors/page_missing';
+
+/* Callback routes */
+$route['dunno'] = function() {
+	$source = './data/surprise.jpg';
+	// set the mime type for the image
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+};
+
+/* Wildcard routes below */
+$route['sleep'] = "first/zzz";
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
+$route['show/(:num)'] = "first/gimme/$1";
+
+/* Regular expression routes below */
+$route['([a-zA-Z]{4})/bingo'] = "bingo";
+$route['comp(\d+)/.*'] = "wise/bingo";
 
 
 /* End of file routes.php */
