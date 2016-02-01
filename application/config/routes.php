@@ -58,6 +58,7 @@ $route['show/(:num)'] = "first/gimme/$1";
 
 /* Regular expression routes below */
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
+$route['comp(\d+)/.*'] = "wise/bingo";
 
 
 /* End of file routes.php */
