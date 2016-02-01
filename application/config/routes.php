@@ -44,6 +44,7 @@ $route['404_override'] = 'errors/page_missing';
 /* Wildcard routes below */
 $route['sleep'] = "first/zzz";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
+$route['show/(:num)'] = "first/gimme/$1";
 
 
 /* End of file routes.php */
