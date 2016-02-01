@@ -1,0 +1,17 @@
+Changes to the project:
+Newest / Latest changes at the top
+[YYYY.MM.DD HH:MM Comment]
+
+2016.01.31 11:59 Changed routing rule for Feature 8. /wisdom to /(:any)
+2016.01.31 04:21 Fixed link for the last image.
+2016.01.31 04:12 Minor comment adjustments for some controller files
+2016.01.31 04:08 Fix for 'Bingo' Link (i.e. Bottom Middle picture)
+2016.01.31 04:00 Feature 6's Anonymous link is working (image is visible)
+2016.01.31 03:53 Fix for num 5 'show' Link (i.e. Top Right picture)
+2016.01.31 03:36 Link for Feature 4 is fixed.
+2016.01.31 03:34 Routing for Feature 4 added
+2016.01.31 03:32 shucks() method added under Welcome.php
+2016.01.31 03:28 Fix for num 3 (sleep) link
+2016.01.31 02:11 Link for 'Last' is fixed
+2016.01.31 00:35 Fix for 'First' Link
+2016.01.28 13:55 Initial Setup
