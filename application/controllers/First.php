@@ -16,9 +16,20 @@ class First extends Application {
 
 	function index()
 	{
+		return $this->gimme(1);
+	}
+    
+	function zzz()
+	{
+		return $this->gimme(1);
+	}
+
+	function gimme($id)
+	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 
-		$author = $this->quotes->first();
+		$source = $this->quotes->all();
+        	$author = $source[$id - 1];
 
 		$this->data['mug'] = $author['mug'];
 		$this->data['who'] = $author['who'];
@@ -26,20 +37,6 @@ class First extends Application {
 
 		$this->render();
 	}
-    
-    function zzz()
-    {
-        $this->data['pagebody'] = 'justone';	// this is the view we want shown
-
-		$source = $this->quotes->all();
-		$author = $source[0];
-
-		$this->data['mug'] = $author['mug'];
-		$this->data['who'] = $author['who'];
-		$this->data['what'] = $author['what'];
-
-		$this->render();
-    }
 }
 
 
