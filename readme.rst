@@ -1,3 +1,17 @@
+Title
+
+#######################
+Coding Style
+#######################
+Allman notation
+
+#######################
+Members
+#######################
+Joseph Tam-Huang
+Vivek K. Kalia
+Gabriel Seonghyoung Lee
+
 #######################
 Starter Webapp - Quotes
 #######################

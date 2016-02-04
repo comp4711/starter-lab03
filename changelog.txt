@@ -1,0 +1,7 @@
+Date and Time               Change detail
+Feb 4, 2016 [2:00pm]
+Feb 4, 2016 [1:31pm]        Fixed "first" link
+Feb 2, 2016 [4:24pm]        Changed name. - Vivek
+Feb 2, 2016 [4:23pm]        Change team member name
+Feb 2, 2016 [4:21pm]        Added "title" to the top of README file
+Feb 2, 2016 [3:51pm]        Initial forking of starter-quotes
